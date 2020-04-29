@@ -17,3 +17,5 @@ src	根目录，下面有main和test。
 
 ## MyBatis逆向生成
 修改生成规则ssm_crud/generatorConfig.xml。启动/ssm_crud/src/test/java/cn/edu/test/MBDTest.java
+
+更多用法查阅官网 https://mybatis.org/mybatis-3/zh/index.html
