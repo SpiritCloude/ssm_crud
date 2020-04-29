@@ -1,7 +1,8 @@
 # SpringMVC + Spring + MyBatis 简单增删改
 
 ## 文件名	作用
- src	根目录，下面有main和test。
+
+src	根目录，下面有main和test。
 - main	主要目录，可以放java代码和一些资源文件。
 - - java	存放java代码，有dao service controller三层。。
 - - resources	存放资源文件，譬如各种的spring，mybatis，log配置文件。
@@ -13,3 +14,6 @@
 - - - - WEB-INF	把jsp放在这里，另外就是web.xml配置。
 - test	这里是测试分支。
 - - java	测试java代码，应遵循包名相同的原则。
+
+## MyBatis逆向生成
+修改生成规则ssm_crud/generatorConfig.xml。启动/ssm_crud/src/test/java/cn/edu/test/MBDTest.java
